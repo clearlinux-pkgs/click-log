@@ -4,7 +4,7 @@
 #
 Name     : click-log
 Version  : 0.3.2
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/22/44/3d73579b547f0790a2723728088c96189c8b52bd2ee3c3de8040efc3c1b8/click-log-0.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/22/44/3d73579b547f0790a2723728088c96189c8b52bd2ee3c3de8040efc3c1b8/click-log-0.3.2.tar.gz
 Summary  : Logging integration for Click
