@@ -4,7 +4,7 @@
 #
 Name     : click-log
 Version  : 0.3.2
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/22/44/3d73579b547f0790a2723728088c96189c8b52bd2ee3c3de8040efc3c1b8/click-log-0.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/22/44/3d73579b547f0790a2723728088c96189c8b52bd2ee3c3de8040efc3c1b8/click-log-0.3.2.tar.gz
 Summary  : Logging integration for Click
@@ -18,21 +18,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : click
 
 %description
-click-log
 =========
-
-.. image:: https://travis-ci.org/click-contrib/click-log.svg?branch=master
-    :target: https://travis-ci.org/click-contrib/click-log
-
-Integrates logging with click.
-
-- `Documentation <https://click-log.readthedocs.org/>`_
-- `Source code <https://github.com/click-contrib/click-log>`_
-
-License
-=======
-
-Licensed under the MIT, see ``LICENSE``.
 
 %package license
 Summary: license components for the click-log package.
@@ -55,7 +41,8 @@ python components for the click-log package.
 Summary: python3 components for the click-log package.
 Group: Default
 Requires: python3-core
-Provides: pypi(click-log)
+Provides: pypi(click_log)
+Requires: pypi(click)
 
 %description python3
 python3 components for the click-log package.
@@ -70,8 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582907748
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583532110
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
